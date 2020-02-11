@@ -1,0 +1,17 @@
+body{
+    background: url(1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+}
+.rowHeight{
+    height: 500px;
+}
+h1{
+    color: grey;
+    font-size: 2em;
+}
+.bgc{
+    background-color: khaki;
+    opacity: 0.8;
+}
