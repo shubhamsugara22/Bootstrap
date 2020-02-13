@@ -21,7 +21,10 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">I.T business</a>
+        <a class="navbar-brand" href="#">
+            <img src="orange.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Orange Inc.
+          </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,12 +34,30 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+                <a class="nav-link" href="#">Product</a>
+              </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">Service</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">Account</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Sign up</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Login</a>
+              </div>
+              </li>  
+            <!----  
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
@@ -47,10 +68,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+            </li> ----->
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -58,11 +76,9 @@
           </form>
         </div>
       </nav>
-    <div class="container-fluid con">
+     <div class="container con">
      <div class="jumbotron">
-         <h1 class="display-3">Lorem ipsum dolor sit amet</h1>
-         <p class="lead">  "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-         <p>A 1994 issue of "Before & After" magazine traces "Lorem ipsum ..." to a jumbled Latin version of a passage from de Finibus Bonorum et Malorum, a treatise on the theory of ethics written by Cicero in 45 B.C.</p>  
+         <h1 class="display-3">our custom navigation bar</h1>
 
          <a href="#" class="btn btn-success btn-lg">Buy now!</a>
      </div>    
